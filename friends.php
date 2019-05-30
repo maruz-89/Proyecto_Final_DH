@@ -1,4 +1,5 @@
 <?php
+$section="Friends";
 $friendlist = [
   [
     "photo" => "profile_pic.jpg",
@@ -28,19 +29,10 @@ $friendlist = [
     "followers" => 45,
     "writings" => 1
   ],
-]
- ?>
+];
 
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-  <title>Friends</title>
-  </head>
-  <body>
+ require_once("header.php");
+ ?>
 
     <div class="friends_finder">
       <h2>Escritores favoritos</h2>
