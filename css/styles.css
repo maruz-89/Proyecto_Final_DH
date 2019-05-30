@@ -1,0 +1,109 @@
+/* Import de google fonts para letra del logo Roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*Import de google fonts para el tipo de letra de la web Noto Serif*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans&display=swap');
+
+/*Font awesome para iconos*/
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+/* Import de normailize */
+@import url("normalize.css");
+
+/* Globales */
+* {
+	box-sizing: border-box;
+}
+
+ul, ol {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+body{
+  font-family: 'Noto Serif', serif;
+}
+
+/* Profile page */
+.App_header {
+	overflow: hidden;
+	background-color: #29293d;
+	color: white;
+}
+
+.image_container img {
+	display: block;
+	float: left;
+	max-width: 15%;
+	height: auto;
+}
+
+.user_info {
+	margin-top: 2%;
+	float: left;
+	font-size: 70%;
+	font-family: 'Noto Serif', serif;
+}
+
+.config_icon {
+	float: right;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+/* Friends page */
+.friends_finder {
+	margin-bottom: 10%;
+}
+
+.friends_finder form {
+	margin: auto;
+}
+
+.friends_list {
+	margin: 1% 1%;
+	width: 98%;
+	overflow: hidden;
+}
+
+.friend_container {
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	width: 46%;
+	border: 1px solid #c4c4c4;
+}
+
+.friend_photo img{
+	display: block;
+	max-width: 40%;
+	height: auto;
+	margin: auto;
+	margin-top: 1.5%;
+}
+
+.friend_name {
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.friend_information ul li{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+.friends_list button {
+	width: 100%;
+	margin-top: 10px;
+	line-height: 30px;
+	background-color: rgb(66,134,244);
+	color: white ;
+
+}
