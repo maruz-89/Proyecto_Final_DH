@@ -31,7 +31,7 @@ $friendlist = [
   ],
 ];
 
- require_once("header.php");
+ require_once("./partials/head.php");
  ?>
 
     <div class="friends_finder">
@@ -74,4 +74,5 @@ $friendlist = [
     <?php endforeach; ?>
     </div>
   </body>
+   <?php require_once("./partials/footer.php") ?>;
 </html>

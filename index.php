@@ -1,17 +1,7 @@
-<?php  ?>
-
-
-
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido</title>
-  </head>
-
+<?php
+$section="LogIn";
+require_once("./partials/head.php");
+?>
 
   <body>
     <div class="container" style="margin-top:30px; margin-bottom: 30px;">

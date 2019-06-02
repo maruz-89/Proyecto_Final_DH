@@ -1,7 +1,18 @@
 <?php
 $section="Profile";
-require_once("header.php");
+require_once("./partials/head.php");
+require_once("./partials/navbar.php");
 ?>
-<!--Falta completar esta seccion -->
+<section>
+  
+</section>
+
+
+
+
+    <?php
+    $section="Profile";
+    require_once("./partials/footer.php");
+    ?>
   </body>
 </html>
