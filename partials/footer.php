@@ -1,16 +1,24 @@
 	<br><br>
 	<footer>
-		<ul class="nav">
-		  <li class="nav-item">
-		    <a class="nav-link" href="#">Home</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="#">Post</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link diable" href="#" tabindex="-1" aria-disabled="true">Amigos</a>
-		  </li>
-		</ul>
+		<div class="container footer">
+			<ul class="row align-items-center justify-content-center nav footer-ul">
+				<li class="col-4 nav-item footer-li">
+					<span class="fas fa-home">
+			    <a class="nav-link" href="#"></a>
+					</span>
+			  </li>
+				<li class=" col-4 nav-item footer-li">
+					<span class="fas fa-plus-circle">
+			    <a class="nav-link" href="#"></a>
+					</span>
+			  </li>
+				<li class=" col-4 nav-item footer-li">
+					<span class="fas fa-user-friends">
+			    <a class="nav-link" href="#"></a>
+					</span>
+			  </li>
+			</ul>
+		</div>
 	</footer>
 
 	<!-- jQuery -->

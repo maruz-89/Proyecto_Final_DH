@@ -30,7 +30,7 @@ body{
 
 .container {
 		overflow: hidden;
-
+		margin:auto;
 }
 
 .row {
@@ -49,7 +49,7 @@ body{
 .image_container img {
 	display: block;
 	float: left;
-	max-width: 15%;
+	max-width: 10%;
 	height: auto;
 }
 
@@ -137,3 +137,71 @@ body{
  .site-title h3 {
 	 font-size: 20px;
  }
+
+/*Empieza CSS de sección Profile*/
+
+ .profile_general{
+	 text-align: center;
+	 margin: auto;
+ }
+
+ .profile_username h3{
+	 background-color: #333647;
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 color: white;
+	 margin-bottom: 20px;
+	 border-radius: 10px;
+ }
+
+ .profile_description_section{
+	 margin-top: 15px;
+	 margin-bottom: 15px;
+ }
+
+ .profile_counter_section{
+	 margin-top: 30px;
+	 margin-bottom: 10px;
+ }
+
+ .profile_counter_section h5{
+		margin-bottom:0px;
+ }
+
+ .profile_counter_section p{
+		color: #2c7997;
+		font-size: 48px;
+ }
+
+.profile_interests_section{
+	margin-bottom:30px;
+}
+
+.profile_interests_pastillas{
+	margin-top: 15px;
+}
+
+ .profile_interests_pastillas .interest{
+	 background-color: white;
+	 color:#2c7997;
+	 padding: 5px 10px;
+	 border-style: solid;
+	 border-width: 1px;
+	 border-color: #2c7997;
+	 font-size: 12px;
+ }
+
+ /*Empieza CSS de Footer*/
+.footer{
+	background-color: #333647;
+	text-align: center;
+	height: 80px;
+	padding-top: 15px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.footer-li span{
+	font-size: 30px;
+	color:white;
+}
