@@ -28,6 +28,17 @@ body{
   font-family: 'Noto Serif', serif;
 }
 
+.container {
+		overflow: hidden;
+
+}
+
+.row {
+  display: block;
+}
+
+
+
 /* Profile page */
 .App_header {
 	overflow: hidden;
@@ -107,3 +118,22 @@ body{
 	color: white ;
 
 }
+
+/* index & register */
+
+
+.site-title{
+	display:block;
+	color: white;
+	background-color: blue;
+
+ }
+
+ .site-title h1 {
+	 font-size: 60px;
+	 color: white;
+ }
+
+ .site-title h3 {
+	 font-size: 20px;
+ }

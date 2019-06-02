@@ -1,0 +1,57 @@
+* Import de google fonts para letra del logo Roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*Import de google fonts para el tipo de letra de la web Noto Serif*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans&display=swap');
+
+/*Font awesome para iconos*/
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+/* Import de normailize */
+@import url("normalize.css");
+
+/* Globales */
+* {
+	box-sizing: border-box;
+}
+
+ul, ol {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+body{
+  font-family: 'Noto Serif', serif;
+}
+
+.container {
+		overflow: hidden;
+
+}
+
+
+.row {
+  display: block;
+}
+
+/* index & register */
+
+.site-title{
+	display:block;
+	color: white;
+	background-color: blue;
+
+ }
+
+ .site-title h1 {
+	 font-size: 60px;
+	 color: white;
+ }
+
+ .site-title h3 {
+	 font-size: 20px;
+ }
