@@ -37,12 +37,16 @@ body{
   display: block;
 }
 
+/* FAQs*/
+.card-header .btn {
+	  font-family: 'Noto Serif', serif;
+		color: black;
+}
 
-
-/* Profile page */
+/* Navbar page */
 .App_header {
 	overflow: hidden;
-	background-color: #29293d;
+	background-color: #333647;
 	color: white;
 }
 

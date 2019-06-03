@@ -32,14 +32,15 @@ $friendlist = [
 ];
 
  require_once("./partials/head.php");
+ require_once("./partials/navbar.php");
  ?>
 
-    <div class="friends_finder">
-      <h2>Escritores favoritos</h2>
+    <div class="friends_finder container">
+      <h2 class="row col-md-auto">Escritores favoritos</h2>
       <!-- Search form -->
-      <form class="form-inline md-form form-sm">
-        <input class="form-control form-control-sm auto w-75" type="text" placeholder="Busca un escritor">
-        <i class="fas fa-search" aria-hidden="true"></i>
+      <form class="form-inline md-form form-sm row">
+        <input class="form-control form-control-sm auto col-10" type="text" placeholder="Busca un escritor">
+        <i class="fas fa-search col-2" aria-hidden="true"></i>
       </form>
     </div>
 
@@ -73,6 +74,5 @@ $friendlist = [
       </div>
     <?php endforeach; ?>
     </div>
-  </body>
-   <?php require_once("./partials/footer.php") ?>;
-</html>
+
+   <?php require_once("./partials/footer.php") ?>
