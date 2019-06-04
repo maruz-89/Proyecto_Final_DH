@@ -125,22 +125,90 @@ body{
 
 /* index & register */
 
+.galaxy{
+	size:100%;
+	background-image: url("../img/Background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .site-title{
 	display:block;
-	color: white;
-	background-color: blue;
+	width: 65vw;
+	margin: 0 auto;
 
  }
 
  .site-title h1 {
-	 font-size: 60px;
+	 font-size: 17vw;
 	 color: white;
+	 margin-bottom: 0;
+	 text-align: center;
  }
 
+
+
  .site-title h3 {
-	 font-size: 20px;
+	 color: white;
+	 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	 font-size: 3vw;
+	 margin-top: 0;
+	 margin-bottom: 7vh;
+	 text-align: right;
+	 font-weight: bold;
+
+
  }
+.description{
+	margin: auto;
+}
+ .description p {
+	 color: white;
+	 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	 font-size: 3vw;
+	 margin-top: 7vh;
+	 margin-bottom: 7vh;
+	 text-align: center;
+
+ }
+
+ .registrar{
+	 color: white;
+	  text-align: center;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-size: 4vw;
+		font-weight: bold;
+		margin-bottom: 2vh;
+
+
+ }
+
+ .formulario{
+	 margin: 0 auto;
+
+ }
+
+ .formulario a{
+	 color: white;
+	 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+ }
+
+.foot{
+	background-color: rgba(73,73,73,0.5);
+	color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+
+
+
+}
+
+.foot a {
+	color:white;
+	text-align: center;
+	font-weight: bold;
+}
 
 /*Empieza CSS de sección Profile*/
 
