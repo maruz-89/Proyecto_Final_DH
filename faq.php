@@ -7,7 +7,7 @@ require_once("./partials/navbar.php");
 <div class="faq_finder container mt-4 mb-4">
   <h2 class="row col-md-auto">FAQs</h2>
   <!-- Search form -->
-  <form class="form-inline md-form form-sm row">
+  <form class="form-inline md-form form-sm">
     <input class="form-control form-control-sm auto col-10" type="text" placeholder="Escribe tu consulta">
     <i class="fas fa-search col-2" aria-hidden="true"></i>
   </form>

@@ -29,13 +29,41 @@ $friendlist = [
     "followers" => 45,
     "writings" => 1
   ],
+  [
+    "photo" => "profile_pic.jpg",
+    "name" => "Marina Zambrano",
+    "posts" => 12,
+    "followers" => 5,
+    "writings" => 2
+  ],
+  [
+    "photo" => "profile_pic.jpg",
+    "name" => "Fernanda Peralta",
+    "posts" => 13,
+    "followers" => 45,
+    "writings" => 1
+  ],
+  [
+    "photo" => "profile_pic.jpg",
+    "name" => "Marina Zambrano",
+    "posts" => 12,
+    "followers" => 5,
+    "writings" => 2
+  ],
+  [
+    "photo" => "profile_pic.jpg",
+    "name" => "Fernanda Peralta",
+    "posts" => 13,
+    "followers" => 45,
+    "writings" => 1
+  ],
 ];
 
  require_once("./partials/head.php");
  require_once("./partials/navbar.php");
  ?>
 
-    <div class="friends_finder container">
+    <div class="friends_finder container mt-3">
       <h2 class="row col-md-auto">Escritores favoritos</h2>
       <!-- Search form -->
       <form class="form-inline md-form form-sm row">
