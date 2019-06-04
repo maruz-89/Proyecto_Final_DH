@@ -96,7 +96,7 @@ require_once("./partials/head.php");
 
     .site-title h3 {
       font-size: 1vw;
-      margin-bottom: 18vh;
+      margin-bottom: 10vh;
 
   }
 
