@@ -1,6 +1,6 @@
 	<br><br>
 	<footer>
-		<div class="container footer">
+		<div class="container footer mobile">
 			<ul class="row align-items-center justify-content-center nav footer-ul">
 				<li class="col-4 nav-item footer-li">
 					<span class="fas fa-home">
@@ -17,6 +17,16 @@
 			    <a class="nav-link" href="#"></a>
 					</span>
 			  </li>
+			</ul>
+		</div>
+		<div class="container footer desktop">
+			<ul class="row align-items-right justify-content-right nav footer-ul">
+				<li class="col-4 nav-item footer-li">
+					<a class="nav-link" href="#">About Us</a>
+				</li>
+				<li class=" col-4 nav-item footer-li">
+					<a class="nav-link" href="#">FAQS</a>
+				</li>
 			</ul>
 		</div>
 	</footer>
