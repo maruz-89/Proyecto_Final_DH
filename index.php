@@ -15,7 +15,7 @@ require_once("./partials/head.php");
     <div class="container" style="margin-top:30px; margin-bottom: 30px;">
         <div class="row justify-content-center">
         <div class= "site-title">
-          <h1> SYZYGY </h1>
+          <h1>SYZYGY</h1>
           <h3>EL ENCUENTRO FORTUITO </h3>
         </div>
 
