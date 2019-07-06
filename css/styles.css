@@ -268,7 +268,7 @@ body{
  }
 
  /*Empieza CSS de Footer*/
-.footer{
+.footer-desk .footer-mob{
 	background-color: #333647;
 	text-align: center;
 	height: 80px;
@@ -277,10 +277,24 @@ body{
 	bottom: 0;
 	width: 100%;
 }
+
 .footer-li span{
 	font-size: 30px;
 	color:white;
 }
+
+ /*Empieza CSS de Home*/
+.home-titulo{
+	margin-top: 20px;
+}
+
+.newpost{
+	color: white;
+	background-color: #2c7997;
+}
+
+
+ /*Empieza media queries*/
 
 @media (min-width: 576px) {
 	.friend_container {
@@ -292,6 +306,7 @@ body{
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+
 	.config_icon {
 		display: none;
 	}
@@ -333,6 +348,7 @@ body{
 		margin-right: 0.5%;
 		width: 15%;
 	}
+
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/

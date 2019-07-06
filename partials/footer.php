@@ -1,6 +1,6 @@
 	<br><br>
 	<footer>
-		<div class="container footer mobile">
+		<div class="footer-mob">
 			<ul class="row align-items-center justify-content-center nav footer-ul">
 				<li class="col-4 nav-item footer-li">
 					<span class="fas fa-home">
@@ -19,7 +19,7 @@
 			  </li>
 			</ul>
 		</div>
-		<div class="container footer desktop">
+		<div class="footer-desk">
 			<ul class="row align-items-right justify-content-right nav footer-ul">
 				<li class="col-4 nav-item footer-li">
 					<a class="nav-link" href="#">About Us</a>
